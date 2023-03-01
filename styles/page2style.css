@@ -105,7 +105,7 @@ main section{
     text-align: center;
 }
 
-#background{
+.background{
     height: 725px;
     background-color: var(--secondary-color);
     grid-column: 1/11;
