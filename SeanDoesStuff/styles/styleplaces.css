@@ -302,6 +302,9 @@ footer .social img{
     transform: scale(1.1);
 }
 
+.places1{
+    width: 100%;
+}
 .places2{
     width: 100%;
     grid-column: 5/10;
