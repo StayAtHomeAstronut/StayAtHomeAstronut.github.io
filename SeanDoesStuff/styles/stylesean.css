@@ -43,13 +43,13 @@ header {
     grid-template-columns: 150px auto;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
 
-    /* Attempting to make the header fade into the color on scroll.*/
-     /* -webkit-box-shadow 0 1px 5px rgba(0, 0, 0, 0.25); */
-     /* -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
-    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
-    /* transition: all 1s ease-in-out; */
+    /* Attempting to make the header fade into the color on scroll. */
+     /* -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
+    transition: all 1s ease-in-out;
 }
 
 nav a:hover {
