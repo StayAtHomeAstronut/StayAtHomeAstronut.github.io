@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plan an Adventure</title>
-    <link rel="stylesheet" href="styles/places.css">
+    <link rel="stylesheet" href="styles/styleplan.css">
+    <script defer src="./styles/seandoesstuff.js"></script>
+
 </head>
 
 <body>
@@ -24,35 +26,105 @@
 
         <div id="hero">
             <div id="hero-box">
-                <img class="plan1" src="images/plan1.jpg" alt="Plan an Adventure">
+                <img class="places1" src="images/plan2_hero.jpg" alt="Places">
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Plan an Adventure</h1>
-                <h4>Start Planning Your Next Big Adventure</h4>
+                <h4>Go Places!</h4>
             </section>
         </div>
+        
+        <div class="wumbo">
+            <h2>
+                Newly Added:
+            </h2>
+        </div>
 
-        <div class="plan-grid">
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                    <img src="images/duss.jpg" alt="sharkrock" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                    <img src="images/saar.jpg" alt="amusement park" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                    <img src="images/worms.jpg" alt="arch rock" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                    <img src="images/craterlake.jpg" alt="the sun" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                    <img src="images/plan2.jpg" alt="redwoods" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                    <img src="images/slc1.jpg" alt="Glacier" style="width:100%">
+                </div>
+
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Image text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail images -->
+                <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/duss.jpg" style="width:100%" onclick="currentSlide(1)" alt="Düsseldorf, Germany">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/saar.jpg" style="width:100%" onclick="currentSlide(2)" alt="Saarbrücken, Germany">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/worms.jpg" style="width:100%" onclick="currentSlide(3)" alt="Worms, Germany">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/craterlake.jpg" style="width:100%" onclick="currentSlide(4)" alt="Crater Lake, Oregon">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/plan2.jpg" style="width:100%" onclick="currentSlide(5)" alt="Oregon Coast">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slc1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Salt Lake City, Utah">
+                </div>
+                </div>
+            </div>
+
+        <div class="places-grid">
             <div class="background"></div> 
-            <img class="plan2" src="images/plan2.jpg" alt="Plan">
+            <img class="places2" src="images/plan1_square.jpg" alt="Places">
             <section class="msg">
                 <h2>Plan an Adventure</h2>
-                <p>Over the course of my adventures, I've come to learn that planning an adventure for yourself doesn't always have to be as daunting as it seems. With careful consideration, you can have a great trip with little cost, plenty of adventure, and minimal surprises. A common myth about travelling is that it needs to be expensive, or that premade plans are necessarily better. The reality is, you can plan an exciting adventure for yourself, see the things you want to see, and do it all for relatively cheap - if you know what you’re doing. The purpose of SeanDoesStuff is to connect you to the resources you need to plan an adventure, without the hassle of going through a tour company or working with a travel agent. This leaves you free to see what you want to see and to make valuable memories.</p>
+                <p>Over the course of my adventures, I've come to learn that planning an adventure for yourself doesn't always have to be as daunting as it seems. With careful consideration, you can have a great trip with little cost, plenty of adventure, and minimal surprises. The reality is, you can plan an exciting adventure for yourself, see the things you want to see, and do it all for relatively cheap. The purpose of SeanDoesStuff is to connect you to the resources you need to plan an adventure, so that you can be free to see what you want to see and to make valuable memories.</p>
             </section>
-        </div>        
+        </div>   
 
+        
         <main class="home-grid">
-            <div id="background"></div> 
-            <img class="places3" src="images/places3.jpg" alt="Places">
-            <section class="leadimage">
-                <h2>Discover Places</h2>
-                <div class='button-box'>
-                    <a class='explore' href="contactus.html">Explore</a>
-                </div>
+            <section class="places-card">
+                <img class="card-img" src="images/places1.jpg" alt="Places">
+                <h2>Places</h2>
             </section>
-
-                <!-- Place the image scroller here. This will probrably require CSS and Javascript.
-                I am waiting to build this part until the CSS is done, as it will take the most effort. -->
+            <section class="adventure-card">
+                <img class="card-img" src="images/plan1.jpg" alt="adventure">
+                <h2>Plan an Adventure</h2>
+            </section>
         </main>
 
         <footer>
