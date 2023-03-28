@@ -425,6 +425,11 @@ nav{
   .demo:hover {
     opacity: 1;
   }
+  .wumbo{
+    text-align: center;
+    padding: 3%;
+    color: var(--headline-color-on-white);
+  }
 
 
 
